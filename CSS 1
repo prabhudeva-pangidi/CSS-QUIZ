@@ -1,0 +1,249 @@
+{
+    "subject": "CSS",
+    "duration": 45,
+    "max": 30,
+    "questions": [
+        {
+            "qid": 1,
+            "title": "What does CSS stand for?",
+            "oa": " Computer Style Sheets ",
+            "ob": " Creative Style Sheets",
+            "oc": "Cascading Style Sheets"
+        // answer:oc 
+         },
+        {
+            "qid": 2,
+            "title": "What is the correct HTML for referring to an external style sheet?",
+            "oa": "<stylesheet>mystyle.css</stylesheet>",
+            "ob": "<link rel="stylesheet" type="text/css" href="mystyle.css">",
+            "oc": " <style src="mystyle.css">",
+        // answer:ob 
+        },
+        {
+            "qid": 3,
+            "title": "Where in an HTML document is the correct place to refer to an external style sheet?",
+            "oa": " In the <head> section",
+            "ob": "At the end of the document",
+            "oc": "In the <body> section",
+        // answer: 
+        },
+        {
+            "qid": 4,
+            "title": "Which HTML tag is used to define an internal style sheet?",
+            "oa": " <style>",
+            "ob": " <script>",
+            "oc": "<css>
+            "
+        // answer:oa 
+        },
+        {
+            "qid": 5,
+            "title": "Which HTML attribute is used to define inline styles?",
+            "oa": "class",
+            "ob": "font",
+            "oc": " style",
+        // answer: oc
+        },
+        {
+            "qid": 6,
+            "title": "Which is the correct CSS syntax?",
+            "oa": "body {color: black;}",
+            "ob": "body:color=black;",
+            "oc": "{body;color:black;}"
+        // answer:oa 
+        },
+        {
+            "qid": 7,
+            "title": "How do you insert a comment in a CSS file?",
+            "oa": " /* this is a comment */",
+            "ob": " ' this is a comment",
+            "oc": "// this is a comment // ",
+        // answer:oa 
+        },
+        {
+            "qid": 8,
+            "title": "Which property is used to change the background color?",
+            "oa": " color ",
+            "ob": "bgcolor",
+            "oc": "background-color",
+        // answer:oc 
+        },
+        {
+            "qid": 9,
+            "title": " How do you add a background color for all <h1> elements ?",
+            "oa": "all.h1 {background-color:#FFFFFF;}",
+            "ob": "h1 {background-color:#FFFFFF;}",
+            "oc": " h1.all {background-color:#FFFFFF;}",
+        // answer:ob 
+        },
+        {
+            "qid": 10,
+            "title": " Which CSS property controls the text size ?",
+            "oa": "text-size",
+            "ob": "font-style",
+            "oc": "font-size",
+        // answer:oc 
+        },
+        {
+            "qid": 11,
+            "title": " Which CSS property is used to change the text color of an element?",
+            "oa": "text-color",
+            "ob": "fgcolor",
+            "oc": "color"
+        // answer:oc 
+        },
+        {
+            "qid": 12,
+            "title": " What is the correct CSS syntax for making all the <p> elements bold?",
+            "oa": " <p style="text-size:bold;">",
+            "ob": "p {font-weight:bold;}",
+            "oc": "p {text-size:bold;}",
+        // answer:ob 
+        },
+        {
+            "qid": 13,
+            "title": " How do you make the text bold?",
+            "oa": "font-weight:bold;",
+            "ob": "font:bold;",
+            "oc": " style:bold;",
+        // answer: oa
+        },
+        {
+            "qid": 14,
+            "title": "Which property is used to change the left margin of an element?",
+            "oa": " indent",
+            "ob": "margin-left",
+            "oc": " padding-left",
+        // answer:ob 
+         }
+
+        {
+            "qid": 15,
+            "title": "How do you select an element with id "demo"?",
+            "oa": ".demo",
+            "ob": "#demo",
+            "oc": "demo"
+        // answer: ob
+        },
+        {
+            "qid": 16,
+            "title": " How do you select elements with class name "test"?",
+            "oa": " *test",
+            "ob": "#test",
+            "oc": " .test"
+        // answer:oc 
+        },
+        {
+            "qid": 17,
+            "title": "How can you created rounded corners using CSS ?",
+            "oa": "border[round]: 30px",
+            "ob": "corner-effect: round;",
+            "oc": "border-radius: 30px;"
+        // answer:oc 
+    },
+        {
+            "qid": 18,
+            "title": "How do you add shadow to elements in CSS?",
+            "oa": "box-shadow: 10px 10px 5px grey;",
+            "ob": "shadow-color: grey;",
+            "oc": "shadow-right: 10px shadowbottom:10px;"
+        // answer:oa
+     },
+        {
+            "qid": 19,
+            "title": "How to you modify a border image using CSS?",
+            "oa": "border: url(image.png);",
+            "ob": "border-image: url(border.png) 30  30 round;",
+            "oc": "none"
+        // answer:ob
+     },
+        {
+            "qid": 20,
+            "title": "How to you modify a border image using CSS?",
+            "oa": "bg-dimensions: 80px 60px;",
+            "ob": "A. background-size: 80px 60px;",
+            "oc": "background-proportion: 80px 60px;"
+        // answer:ob 
+    },
+        {
+            "qid": 21,
+            "title": " How to add text shadow using CSS?",
+            "oa": "font: shadowed 5px 5px 5px grey;",
+            "ob": "shadow: text 5px 5px 5px grey;",
+            "oc": "text-shadow: 5px 5px 5px grey;"
+        // answer:oc
+     },
+        {
+            "qid": 22,
+            "title": "How to resize a background image using CSS?",
+            "oa": "background-size: 80px 60px",
+            "ob": "bg-dimensions: 80px 60px;",
+            "oc": "alpha-effect: bg-resize 80px 60px;"
+        // answer:oa 
+    },
+        {
+            "qid": 23,
+            "title": "How to force a word wrap using CSS?",
+            "oa": "word-wrap: break-word;",
+            "ob": "text-wrap: break-word;",
+            "oc": "text-width: set;"
+        // answer:oa
+     },
+        {
+            "qid": 24,
+            "title": "Which of these are valid CSS transformation statements?",
+            "oa": "modify()",
+            "ob": "matrix()",
+            "oc": "skip()"
+        // answer: ob
+    },
+        {
+            "qid": 25,
+            "title": "How to rotate objects using CSS?",
+            "oa": "object-rotation: 30deg;",
+            "ob": "transform: rotate(30deg);",
+            "oc": "rotate-object: 30deg"
+        // answer:ob
+     },
+        {
+            "qid": 26,
+            "title": "How to re-size/scale objects using CSS?",
+            "oa": "transform: scale(2,4);",
+            "ob": "scale: (2,4);",
+            "oc": "none"
+        // answer:oa
+     },
+        {
+            "qid": 27,
+            "title": "How to create transition effects using CSS ?",
+            "oa": "alpha-effect: transition (width,2s);",
+            "ob": "none",
+            "oc": "transition: width 2s;"
+        // answer:oc
+     },
+        {
+            "qid": 28,
+            "title": "How to add text shadow using CSS?",
+            "oa": "font: shadowed 5px 5px 5px grey;",
+            "ob": "text-shadow: 5px 5px 5px grey;",
+            "oc": "shadow: text 5px 5px 5px grey;"
+             // answer:ob
+        }
+        {
+            "qid": 29,
+            "title": "How can you created rounded corners using CSS?",
+            "oa": "border[round]: 30px;",
+            "ob": "corner-effect: round;",
+            "oc": "border-radius: 30px;"
+             // answer:oc
+        }
+        {
+            "qid": 30,
+            "title": "How to you modify a border image using CSS?",
+            "oa": "border-image: url(border.png) 30 30 round;",
+            "ob": "border: url(image.png);",
+            "oc": "none;"
+             // answer:oa
+        }
+    ]
+}
